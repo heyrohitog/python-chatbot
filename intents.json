@@ -1,0 +1,56 @@
+{
+    
+    "intents": [
+      {
+        "tags": "greeting",
+        "patterns": ["Hi", "Hello", "Hey"],
+        "responses": ["Hello!", "Hi there!", "Hey! How can I help you today?"]
+      },
+      {
+        "tags": "goodbye",
+        "patterns": ["Bye", "Goodbye", "See you later"],
+        "responses": ["Goodbye!", "Have a nice day!", "See you later, alligator!"]
+      },
+      {
+        "tags": "thanks",
+        "patterns": ["Thanks", "Thank you", "Appreciate it"],
+        "responses": ["You're welcome!", "Anytime!", "Glad I could help!"]
+      },
+      {
+        "tags": "age",
+        "patterns": ["How old are you?", "What's your age?"],
+        "responses": ["I am a virtual assistant, so I don't have an age!", "I don't have an age like humans do."]
+      },
+      {
+        "tags": "name",
+        "patterns": ["What's your name?", "Do you have a name?"],
+        "responses": ["I'm a chatbot. You can call me waifu!", "I go by waifu."]
+      },
+      {
+        "tags": "weather",
+        "patterns": ["What's the weather like?", "Tell me about the weather"],
+        "responses": ["You can check the weather forecast on a weather website or app.", "I can't check the weather, but you can use a weather app!"]
+      },
+      {
+        "tags": "help",
+        "patterns": ["Can you help me?", "I need assistance", "Help please"],
+        "responses": ["Sure, I'd be happy to help!", "What do you need assistance with?"]
+      },
+      {
+        "tags": "joke",
+        "patterns": ["Tell me a joke", "I want to hear a joke", "Joke please"],
+        "responses": ["Why don't scientists trust atoms? Because they make up everything!", "How does a penguin build its house? Igloos it together!"]
+      },
+      {
+        "tags": "music",
+        "patterns": ["Play some music", "Can you recommend music?", "Music please"],
+        "responses": ["I'm sorry, I can't play music, but I can suggest some music streaming platforms!", "I don't have the ability to play music, but I can recommend some music for you!"]
+      },
+      {
+        "tags": "fallback",
+        "patterns": [],
+        "responses": ["I'm sorry, I'm not sure I understand.", "Could you please rephrase that?", "I'm still learning!"]
+      }
+    ]
+  }
+  
